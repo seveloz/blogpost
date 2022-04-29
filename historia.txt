@@ -5,3 +5,5 @@ probar GIT
 Sergio Velazquez tiene 33 años
 
 En camara parece alto, la verdad no es tan alto.
+
+Hoy es integrador en Ericsson.
