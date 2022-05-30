@@ -166,3 +166,16 @@ git branch nombre-de-la-rama o git checkout -b nombre-de-la-rama
 
 Publicar una rama local al repositorio remoto:
 git push origin nombre-de-la-rama
+
+Si, como colaborador, agregaste erróneamente el mensaje del commit, lo puedes cambiar de la siguiente manera:
+
+Hacer un commit con el nuevo mensaje que queremos, esto nos abre el editor de texto de la terminal:
+git commit —amend
+
+Corregimos el mensaje
+
+Traer el repositorio remoto
+git pull origin master
+
+Ejecutar el cambio
+git push --set-upstream origin master
