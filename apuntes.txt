@@ -137,3 +137,18 @@ Al trabajar con otras personas, es necesario utilizar un repositorio remoto.
     Los merges pueden generar conflictos, esto aborta la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen.
 
 Aporte creado por: José Tuzinkievicz, Lottie
+
+Paso a paso para subir tu proyecto a github o a un servidor Git
+
+# agregar nuestro repositorio local al del servidor de github 
+git remote add origin (url)
+
+#Verificar que la URL se haya guardado
+git remote
+git remote -v
+
+#Traemos la versión del repositorio remoto y hacemos merge para crear un commit con los archivos de ambas partes. se puede usar git fetch y git merge o solo lo siguiente:
+get pull origin main --allow-unrelated-histories
+
+#Guerdamos los cambios de nuestro repositorio logal en github
+git push origin master:main
