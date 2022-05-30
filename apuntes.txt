@@ -149,6 +149,20 @@ git remote -v
 
 #Traemos la versión del repositorio remoto y hacemos merge para crear un commit con los archivos de ambas partes. se puede usar git fetch y git merge o solo lo siguiente:
 get pull origin main --allow-unrelated-histories
+get pull origin main
 
 #Guerdamos los cambios de nuestro repositorio logal en github
-git push origin master:main
+git push origin master
+
+
+Crear una rama:
+git branch branchName
+
+Movernos a otra rama:
+git checkout branchName
+
+Crear una rama en el repositorio local:
+git branch nombre-de-la-rama o git checkout -b nombre-de-la-rama
+
+Publicar una rama local al repositorio remoto:
+git push origin nombre-de-la-rama
