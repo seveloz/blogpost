@@ -218,3 +218,17 @@ Este comando sirve para agregar archivos nuevos o actualizar el commit anterior 
 Atención
 
 Usar amend es una mala práctica, sobre todo cuando ya se ha hecho push o pull al repositorio remoto. Al momento de hacer amend con algún commit que esté en remoto, va a generar un conflicto que se va a arreglar haciendo un commit adicional y se perderá el beneficio del amend.
+
+git grep color -->use la palabra color
+git grep la --> donde use la palabra la
+git grep -n color–> en que lineas use la palabra color
+git grep -n platzi --> en que lineas use la palabra platzi
+git grep -c la --> cuantas veces use la palabra la
+git grep -c paltzi --> cuantas veces use la palabra platzi
+git grep -c “<p>”–> cuantas veces use la etiqueta <p>
+
+git log-S “cabecera” --> cuantas veces use la palabra cabecera en
+todos los commits.
+
+grep–> para los archivos
+log --> para los commits.
